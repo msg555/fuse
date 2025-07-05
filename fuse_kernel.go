@@ -454,6 +454,9 @@ const (
 	opCopyFileRange = 47
 	opSetupMapping  = 48
 	opRemoveMapping = 49
+	opSyncfs        = 50
+	opTmpfile       = 51
+	opStatx         = 52
 )
 
 type entryOut struct {
